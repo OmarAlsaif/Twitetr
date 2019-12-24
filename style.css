@@ -1,20 +1,18 @@
 body {
-  font-family: 'Charm', cursive;
-  background-image: url("../static/background.jpg");
+  font-family: 'Exo', sans-serif;
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
   background-position: center top;
   background-size: 100%;
   text-align: center;
-  color: #e2e2e2;
+  background-color: #80d4ff;
   font-size: 150%;
 }
 
 #title {
   font-size: 50px;
   margin: auto;
-  border: solid;
   padding: 5px;
   text-decoration: none;
   color: rgb(14, 0, 143);
@@ -31,6 +29,23 @@ body {
   margin-top: 35px;
   font-family: 'Charm', cursive;
   color: #e2e2e2;
+}
+
+nav {
+  border-bottom: solid;
+  border-color: black;
+
+}
+.form-group {
+  width: 50%;
+  margin: auto;
+  height: 70%;
+
+}
+textarea{
+
+  height: 50%;
+  width: 50%;
 }
 
 #all_articles>li>a {
