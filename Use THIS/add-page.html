@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+ 
+
+  <title>Twitetr</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="header">
+      <nav>
+      <a href="add-page.html" id="title">Twitetr</a>
+      </nav>
+    </header>
+<h1>Write A Tweet</h1>
+<p id="quoteDisplay"></p>
+
+<form id="my-form" action="#" method="POST">
+  <div class="form-group">
+    <msg class="msg"> </msg>
+    <textarea id="text" rows="5" cols="50" maxlength="280" placeholder="Write your text here..." name="maintext"></textarea>
+
+  </div>
+  <a type ="submit" value = "Submit" href="https://twitter.com/intent/tweet?button_hashtag=intent&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</form>
+
+</div>
+
+<script src="script.js"></script> 
+</body>
+</html>
