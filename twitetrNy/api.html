@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet">
+    <title>API Documentation</title>
+</head>
+
+<body>
+    <h1>Twitetr </h1>
+    <p> Här har vi samlat all viktig information om hur man använder Twitetr för att skriva ett tweet, få det rättstavat
+        och sedan skicka det på Twitter.</p>
+    <h1>API- Beskrivning</h1>
+    <p>Vårt API tar emot en sträng från parametern "userTweet" och skickar vidare detta till Libris API. Det som tas
+        emot från Libris API är en XML fil som visas i exmplet nedan. Returdatan tas emot av ett program kallat
+        "Velocity Template Engine" som sparar datan som skickas av servern i
+        som en array av strängar</p>
+    <h1>GET /</h1>
+    <p>Visar ett användargränssnitt för att mata in ett tweet.</p>
+    <h2>Indata</h2>
+    <p>Ej möjligt för GET</p>
+    <h1>GET /tweet{userTweet}</h1>
+    <p>Skickar användarens tweet som en sträng till Libris API och hämtar rättstavade versionen av strängen i en XML fil, som visas i exmplet nedan.  </p>
+    <h2>Indata</h2>
+    <p>En sträng från användaren.</p>
+    <h2>Returdata</h2>
+    <img src="apiexempel1.png">
+   
+
+</body>
+
+</html>
